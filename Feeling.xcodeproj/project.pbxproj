@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85E29B014F972B48D47A695C /* Pods_Feeling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E7FBDF31CFE7E984DB234D /* Pods_Feeling.framework */; };
+		9D0FB6AB2B094D0200C315AC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FB6AA2B094D0200C315AC /* PhotoCell.swift */; };
+		9D0FB6AD2B0981DB00C315AC /* FeelingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FB6AC2B0981DB00C315AC /* FeelingDetailsViewController.swift */; };
+		9DEC7CE62AF6FD2E0045C623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7CE52AF6FD2E0045C623 /* AppDelegate.swift */; };
+		9DEC7CE82AF6FD2E0045C623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7CE72AF6FD2E0045C623 /* SceneDelegate.swift */; };
+		9DEC7CEA2AF6FD2E0045C623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7CE92AF6FD2E0045C623 /* ViewController.swift */; };
+		9DEC7CEF2AF6FD2F0045C623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC7CEE2AF6FD2F0045C623 /* Assets.xcassets */; };
+		9DEC7CF22AF6FD2F0045C623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC7CF02AF6FD2F0045C623 /* LaunchScreen.storyboard */; };
+		9DEC7CFE2AF702AD0045C623 /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7CFD2AF702AD0045C623 /* MVVMModel.swift */; };
+		9DEC7D022AF703440045C623 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7D012AF703440045C623 /* MainViewController.swift */; };
+		9DEC7D062AF936680045C623 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7D052AF936680045C623 /* MVVMViewModel.swift */; };
+		9DEC7D092AF93B650045C623 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC7D082AF93B650045C623 /* Service.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AACE4D2E837086ECB23329D /* Pods-Feeling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.release.xcconfig"; path = "Target Support Files/Pods-Feeling/Pods-Feeling.release.xcconfig"; sourceTree = "<group>"; };
+		9D0FB6AA2B094D0200C315AC /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		9D0FB6AC2B0981DB00C315AC /* FeelingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingDetailsViewController.swift; sourceTree = "<group>"; };
+		9DEC7CE22AF6FD2E0045C623 /* Feeling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feeling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEC7CE52AF6FD2E0045C623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DEC7CE72AF6FD2E0045C623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DEC7CE92AF6FD2E0045C623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DEC7CEE2AF6FD2F0045C623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEC7CF12AF6FD2F0045C623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DEC7CF32AF6FD2F0045C623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC7CFD2AF702AD0045C623 /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
+		9DEC7D012AF703440045C623 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DEC7D052AF936680045C623 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		9DEC7D082AF93B650045C623 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E4159B29E7D6E097EBF602F2 /* Pods-Feeling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.debug.xcconfig"; path = "Target Support Files/Pods-Feeling/Pods-Feeling.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E7FBDF31CFE7E984DB234D /* Pods_Feeling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feeling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEC7CDF2AF6FD2E0045C623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E29B014F972B48D47A695C /* Pods_Feeling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12836EA6659D18F3B512EFDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4159B29E7D6E097EBF602F2 /* Pods-Feeling.debug.xcconfig */,
+				7AACE4D2E837086ECB23329D /* Pods-Feeling.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DEC7CD92AF6FD2E0045C623 = {
+			isa = PBXGroup;
+			children = (
+				9DEC7CE42AF6FD2E0045C623 /* Feeling */,
+				9DEC7CE32AF6FD2E0045C623 /* Products */,
+				12836EA6659D18F3B512EFDB /* Pods */,
+				A63044B6182E0C6F2EE768E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEC7CE32AF6FD2E0045C623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7CE22AF6FD2E0045C623 /* Feeling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEC7CE42AF6FD2E0045C623 /* Feeling */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7D072AF93B2A0045C623 /* Service */,
+				9DEC7CF92AF7021B0045C623 /* MVVM */,
+				9DEC7CEE2AF6FD2F0045C623 /* Assets.xcassets */,
+				9DEC7CF02AF6FD2F0045C623 /* LaunchScreen.storyboard */,
+				9DEC7CF32AF6FD2F0045C623 /* Info.plist */,
+			);
+			path = Feeling;
+			sourceTree = "<group>";
+		};
+		9DEC7CF92AF7021B0045C623 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7CFA2AF702560045C623 /* Model */,
+				9DEC7CFB2AF7025D0045C623 /* View */,
+				9DEC7CFC2AF702630045C623 /* ViewModel */,
+				9DEC7CE52AF6FD2E0045C623 /* AppDelegate.swift */,
+				9DEC7CE92AF6FD2E0045C623 /* ViewController.swift */,
+				9DEC7CE72AF6FD2E0045C623 /* SceneDelegate.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		9DEC7CFA2AF702560045C623 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7CFD2AF702AD0045C623 /* MVVMModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DEC7CFB2AF7025D0045C623 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7CFF2AF703040045C623 /* View */,
+				9DEC7D002AF7030A0045C623 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DEC7CFC2AF702630045C623 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7D052AF936680045C623 /* MVVMViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DEC7CFF2AF703040045C623 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D0FB6AA2B094D0200C315AC /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DEC7D002AF7030A0045C623 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7D012AF703440045C623 /* MainViewController.swift */,
+				9D0FB6AC2B0981DB00C315AC /* FeelingDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DEC7D072AF93B2A0045C623 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC7D082AF93B650045C623 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A63044B6182E0C6F2EE768E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7FBDF31CFE7E984DB234D /* Pods_Feeling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEC7CE12AF6FD2E0045C623 /* Feeling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEC7CF62AF6FD2F0045C623 /* Build configuration list for PBXNativeTarget "Feeling" */;
+			buildPhases = (
+				2BBC1D502318D5626931309B /* [CP] Check Pods Manifest.lock */,
+				9DEC7CDE2AF6FD2E0045C623 /* Sources */,
+				9DEC7CDF2AF6FD2E0045C623 /* Frameworks */,
+				9DEC7CE02AF6FD2E0045C623 /* Resources */,
+				57C054006500E76D4DD389BD /* [CP] Embed Pods Frameworks */,
+				9D75393B2B0B9F2000BE5AF6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feeling;
+			productName = Feeling;
+			productReference = 9DEC7CE22AF6FD2E0045C623 /* Feeling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEC7CDA2AF6FD2E0045C623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9DEC7CE12AF6FD2E0045C623 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DEC7CDD2AF6FD2E0045C623 /* Build configuration list for PBXProject "Feeling" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEC7CD92AF6FD2E0045C623;
+			productRefGroup = 9DEC7CE32AF6FD2E0045C623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEC7CE12AF6FD2E0045C623 /* Feeling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEC7CE02AF6FD2E0045C623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC7CF22AF6FD2F0045C623 /* LaunchScreen.storyboard in Resources */,
+				9DEC7CEF2AF6FD2F0045C623 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BBC1D502318D5626931309B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feeling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C054006500E76D4DD389BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feeling/Pods-Feeling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feeling/Pods-Feeling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Feeling/Pods-Feeling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D75393B2B0B9F2000BE5AF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEC7CDE2AF6FD2E0045C623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC7D092AF93B650045C623 /* Service.swift in Sources */,
+				9D0FB6AD2B0981DB00C315AC /* FeelingDetailsViewController.swift in Sources */,
+				9DEC7CEA2AF6FD2E0045C623 /* ViewController.swift in Sources */,
+				9DEC7D022AF703440045C623 /* MainViewController.swift in Sources */,
+				9DEC7CFE2AF702AD0045C623 /* MVVMModel.swift in Sources */,
+				9DEC7CE62AF6FD2E0045C623 /* AppDelegate.swift in Sources */,
+				9D0FB6AB2B094D0200C315AC /* PhotoCell.swift in Sources */,
+				9DEC7CE82AF6FD2E0045C623 /* SceneDelegate.swift in Sources */,
+				9DEC7D062AF936680045C623 /* MVVMViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DEC7CF02AF6FD2F0045C623 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEC7CF12AF6FD2F0045C623 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DEC7CF42AF6FD2F0045C623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEC7CF52AF6FD2F0045C623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DEC7CF72AF6FD2F0045C623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4159B29E7D6E097EBF602F2 /* Pods-Feeling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Feeling/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyrubtsov.Feeling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9DEC7CF82AF6FD2F0045C623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AACE4D2E837086ECB23329D /* Pods-Feeling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Feeling/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyrubtsov.Feeling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEC7CDD2AF6FD2E0045C623 /* Build configuration list for PBXProject "Feeling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC7CF42AF6FD2F0045C623 /* Debug */,
+				9DEC7CF52AF6FD2F0045C623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEC7CF62AF6FD2F0045C623 /* Build configuration list for PBXNativeTarget "Feeling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC7CF72AF6FD2F0045C623 /* Debug */,
+				9DEC7CF82AF6FD2F0045C623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEC7CDA2AF6FD2E0045C623 /* Project object */;
+}
